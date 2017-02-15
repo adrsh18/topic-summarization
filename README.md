@@ -1,5 +1,16 @@
 # topic-summarization
 
+**Objective**: Summarize tweets by topics.
+
+This Repository contains piece of the project which can find tweets semantically and contextually similar to each other.
+Over 100,000 tweets have been modeled using **Doc2Vec** and **LDA** for a comparitive study. And, **Doc2Vec** wins.
+
+Goto [model_usage.ipynb](https://github.com/adrsh18/topic-summarization/blob/master/model_usage.ipynb) to get the trained Doc2Vec model.
+
+Goto [tweet_topics.ipynb](https://github.com/adrsh18/topic-summarization/blob/master/tweet_topics.ipynb) to see how the model was built.
+
+**Other Files**
+
 data-crawler.py - Crawl tweets for #christmas
 
 process.py - Extract relevant fields from tweets
